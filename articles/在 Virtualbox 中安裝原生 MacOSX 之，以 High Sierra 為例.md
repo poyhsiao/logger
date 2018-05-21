@@ -37,9 +37,28 @@
 
 好啦，為什麼是 [Virtualbox]，其實，理論上應該 [VMware] 應該也可以，不過，那要錢啊，我可不想花錢啊，比較在公司的 desktop 安裝，沒必要破解或是購買，對吧？！另外，我真的不確定是否 [VMware] 可以完整支援安裝 *MacOSX* ，所以我也完全不考慮了。
 
-怎麼下載、安裝，這方面我就不說了，應該沒有什麼特別意外，頂多就是有人會問，要不要安裝 *Extension Pack* 吧？這部分，其實無關是否可以安裝成功，而且我現在用的 desktop 是非常古老的硬體環境，根本沒有像是 *USB 3.0* 這種高級貨，所以，裝不裝，就看你自己的需要吧，我是沒試過是不是有差別 (_不過我有裝_)。
+怎麼下載、安裝，這方面我就不說了，應該沒有什麼特別意外，頂多就是有人會問，要不要安裝 *Extension Pack* 吧？這部分，其實無關是否可以安裝成功，而且我現在用的 desktop 是非常古老的硬體環境，根本沒有像是 *USB 3.0* 這種高級貨，所以，裝不裝，就看你自己的需要吧，我是沒試過是不是有差別 ( _不過我有裝_ )。
 
 ### 下載並轉換 High Sierra 成為安裝 ISO 檔
+
+其實理論上，就算把原始的 *High Sierra* 轉換成 USB 開機隨身碟，理論上也可以，不過既然是使用 [virtualbox] 安裝，為了避免你可能遇到的麻煩，或是沒辦法抓到開機的 USB drive ，在這裡還是強烈建議，稍微花點時間，把 *High Sierra* 轉換成 ISO 檔案，或許可以減少你很多白走冤枉路的時間。
+
+首先，當然就是去 [Apple 的 App Store 下載 High Sierra][high sierra]，這部分應該沒有什麼難度把，要注意的是，你應該使用 *Mac* 的機器下載。當然，如果你根本沒有 *Mac* 的機器可以下載，其實，你也可以找 ~~[我(誤)][my]~~ 你的好朋友幫忙。如果你連 *Mac* 的機器都沒辦法借到，那我也只能愛莫能助啦，畢竟接下來要轉換出 ISO 檔，還是會需要 *Mac* 的機器。
+
+![screenshot 2018-05-21 下午5.02.38](https://i.imgur.com/H1WGKPi.jpg)
+
+下載完成後，理論上，系統會自動幫你 *喚起* *High Sierra* 的安裝程式，不過，在此你應該很帥氣的用 `⌘ (command) + q` 的把它關閉，畢竟你現在是要做安裝 ISO 檔。
+
+![screenshot 2018-05-21 下午5.13.17](https://i.imgur.com/vOoViUi.jpg)
+
+你應該可以在你的 *應用程式* 中，找到這個下載的 *High Sierra* 安裝程式，如下圖所示
+
+![screenshot 2018-05-21 下午5.14.45](https://i.imgur.com/wuY65os.jpg)
+
+一直到這邊，應該對你來說沒有任何難度吧！！恭喜你，要準備開始了～～
+
+
+
 
 ### 深呼吸
 
@@ -48,5 +67,6 @@
 [lubuntu]: https://lubuntu.net/ (lubuntu - one family member of Ubuntu)
 [hackintosh]: https://hackintosh.com/ (porting version of osx)
 [virtualbox]: https://www.virtualbox.org/ (Virtualbox official site)
-
+[high sierra]: https://itunes.apple.com/tw/app/macos-high-sierra/id1246284741?mt=12 (High Sierra 官方下載處)
+[my]: mailto:white.shopping@gmail.com
 
