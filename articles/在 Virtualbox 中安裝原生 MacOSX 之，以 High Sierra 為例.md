@@ -57,8 +57,59 @@
 
 一直到這邊，應該對你來說沒有任何難度吧！！恭喜你，要準備開始了～～
 
+#### 開始轉換
+
+1. 開啟你喜歡的 *terminal* 應用程式，我是用 iTerm2 ，不過你用其他的也沒差
+2. 鍵入以下的 *command*
+
+```bash
+# hdiutil create -o /tmp/HighSierra.cdr -size 5200m -layout SPUD -fs HFS+J
+```
+
+```bash
+# hdiutil attach /tmp/HighSierra.cdr.dmg -noverify -mountpoint /Volumes/install_build
+```
+
+```bash
+# sudo <你的 High Sierra 安裝檔案位置>/Contents/Resources/createinstallmedia --volume /Volumes/install_build
+```
+
+這裡的 `<你的 High Sierra 安裝檔案位置>` 項目，建議使用 *拖放* 的方式，把你的 *High Sierra 安裝檔* 拖放到 *terminal* 中，畢竟，用手打的，有 99% 的機會都會打錯。所以，與此同時，為了珍惜你寶貴的生命，用 *拖放* 的方式，會讓你輕鬆很多的！！
+
+![screenshot 2018-05-21 下午6.09.06](https://i.imgur.com/lhU5Bs3.jpg)
 
 
+```bash
+# mv /tmp/HighSierra.cdr.dmg ~/Desktop/InstallSystem.dmg
+```
+
+```bash
+# hdiutil detach /Volumes/Install\ macOS\ High\ Sierra
+```
+
+```bash
+# hdiutil convert ~/Desktop/InstallSystem.dmg -format UDTO -o ~/Desktop/HighSierra.iso
+```
+
+```bash
+# mv ~/Desktop/HighSierra.iso.cdr ~/Desktop/HighSierra.iso
+```
+
+完成以上的步驟後，你應該會在你的 *桌面 / Desktop* 上，出現一個叫做 `HighSierra.iso` 的映像檔
+
+![screenshot 2018-05-21 下午6.55.16](https://i.imgur.com/GVlbhj7.jpg)
+
+*double-click* 這個映像檔後，聰明的 *Mac* 應該就會幫你掛載這個影像檔
+
+![screenshot 2018-05-21 下午6.55.47](https://i.imgur.com/3FIncBb.jpg)
+
+點選掛在的裝置後，接下來應該就可以看到一下的畫面了！！
+
+![screenshot 2018-05-21 下午6.52.28](https://i.imgur.com/Wu24Y21.jpg)
+
+---
+
+到此為止，我們已經順利完成了 *High Sierra* ISO 檔案的製作了，這個 ISO 檔，可是完完全全官方版本，可沒有加入任何調味修飾喔！即使你想要安裝或是復原你的 *Mac* 系統，用這個 ISO 檔操作，也完全沒有問題的！！
 
 ### 深呼吸
 
